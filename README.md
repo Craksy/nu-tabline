@@ -87,8 +87,8 @@ let keybindings = [
         event: { send: executehostcommand cmd: 'tabline close' }
     }
     {
-        name: close_tab
-        modifier: ctrl
+        name: clear_screen
+        modifier: control
         keycode: char_l
         mode: [emacs vi_normal] 
         event: { send: executehostcommand cmd: 'tabline clear' }
